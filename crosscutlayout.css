@@ -1,0 +1,127 @@
+/* ==============================
+   GLOBAL SETTINGS
+   ============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f4f1;
+    color: #333333;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* ==============================
+   TYPOGRAPHY
+   ============================== */
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* ==============================
+   HEADER
+   ============================== */
+
+header {
+    background-color: #2f2420;
+    color: white;
+    padding: 24px 40px;
+}
+
+
+/* ==============================
+   NAVIGATION
+   ============================== */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==============================
+   MAIN CONTENT
+   ============================== */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+
+/* ==============================
+   SECTIONS
+   ============================== */
+
+section {
+    padding: 20px 0;
+}
+
+
+/* ==============================
+   BOOKING FORM
+   ============================== */
+
+form {
+    max-width: 600px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* ==============================
+   FOOTER
+   ============================== */
+
+footer {
+    background-color: #2f2420;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
