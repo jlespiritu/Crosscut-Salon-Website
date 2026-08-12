@@ -44,19 +44,27 @@ header {
     padding: 24px 40px;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 
 /* ==============================
    NAVIGATION
    ============================== */
 
 nav {
-    margin-top: 15px;
+    display: flex;
+    gap: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 20px;
 }
 
 nav a:hover {
@@ -82,7 +90,49 @@ main {
 section {
     padding: 20px 0;
 }
+/* ==============================
+   SERVICES GRID
+   ============================== */
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* ==============================
+   SERVICES STYLES
+   ============================== */
+.service-card h3 {
+    font-size: 22px;
+    margin-top: 0;
+}
 
+/* ==============================
+   SERVICES HEADER STYLES
+   ============================== */
+
+#services > h2,
+#services > p {
+    text-align: center;
+}
+
+.service-card {
+    text-align: left;
+}
+/* ==============================
+   PRICES STYLES
+   ============================== */
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
 
 /* ==============================
    BOOKING FORM
@@ -113,8 +163,22 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+/* ==============================
+   BOOKING LINK STYLES
+   ============================== */
 
+.service-card a {
+    display: inline-block;
+    background-color: #2f2420;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
 
+.service-card a:hover {
+    text-decoration: underline;
+}
 /* ==============================
    FOOTER
    ============================== */
@@ -124,4 +188,27 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+
+/* ==============================
+   MOBILE NAVIGATION
+   ============================== */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
 }

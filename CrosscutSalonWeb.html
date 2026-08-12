@@ -1,23 +1,30 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
-    <meta charset="UTF-8">
+```
+<meta charset="UTF-8">
 
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
 
-    <title>CrossCut Salon</title>
-    <link rel="stylesheet" href="crosscutlayout.css">
+<title>CrossCut Salon</title>
+
+<link rel="stylesheet" href="crosscutlayout.css">
+```
 
 </head>
 
 <body>
 
-    <!-- HEADER -->
+```
+<!-- HEADER -->
 
-    <header>
+<header>
+
+    <div class="nav-container">
 
         <h1>CrossCut Salon</h1>
 
@@ -26,163 +33,325 @@
         <nav>
 
             <a href="index.html">Home</a>
-
             <a href="#services">Services</a>
-
             <a href="#booking">Book Now</a>
-
             <a href="#about">About</a>
-
             <a href="#contact">Contact</a>
 
         </nav>
 
-    </header>
+    </div>
+
+</header>
 
 
-    <!-- MAIN CONTENT -->
+<!-- MAIN CONTENT -->
 
-    <main>
+<main>
 
-        <!-- HERO -->
+    <!-- HERO -->
 
-        <section>
+    <section>
 
-            <h2>Welcome to CrossCut Salon</h2>
-
-            <p>
-                Professional hair and beauty
-                services designed for you.
-            </p>
-
-            <a href="#services">
-                View Our Services
-            </a>
-
-        </section>
-
-
-        <!-- ABOUT -->
-
-        <section id="about">
-
-            <h2>About CrossCut Salon</h2>
-
-            <p>
-                CrossCut Salon provides quality
-                beauty and hair services for
-                every occasion.
-            </p>
-
-        </section>
-
-
-        <!-- SERVICES -->
-
-        <section id="services">
-
-            <h2>Our Services</h2>
-
-            <ul>
-
-                <li>Hair Rebonding</li>
-
-                <li>Hair Coloring</li>
-
-                <li>Balayage</li>
-
-                <li>Collagen Hair Treatment</li>
-
-            </ul>
-
-        </section>
-
-        <!-- BOOKING -->
-
-        <section id="booking">
-
-         <h2>Book an Appointment</h2>
-
-            <form>
-                <label for="full_name">Name:</label>
-                <input type="text" id="full_name" name="full_name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                placeholder="you@example.com
-                <label for="phone">Phone:</label>
-                <input type="tel" id="mobilephone" name="mobilephone" required>
-                placeholder="09XX-XXX-XXXX"
-                <label for="service">Service:</label>
-                <select id="service" name="Select Service:" required>
-                    <option value="">Select a service</option>
-                    <option value="hair-rebonding">Hair Rebonding</option>
-                    <option value="hair-coloring">Hair Coloring</option>
-                    <option value="balayage">Balayage</option>
-                    <option value="collagen-hair-treatment">Collagen Hair Treatment</option>
-                </select>
-                <label for="Appointment Date">Preferred Date:</label>
-                <input type="date" id="appointment_date" name="appointment_date" required>
-                <label for="appointment-time">Time:</label>
-                <input type="time" id="appointment-time" name="appointment-time" required>
-               
-                <label for="staff">Preferred Staff:</label>
-                <select id="staff" name="staff" required>
-                    <option value="">Select a stylist</option>
-                    <option value="Eden">Eden</option>
-                    <option value="Joy">Joy</option>
-                </select>
-                <label for="additional-notes">Additional Notes:</label>
-                <textarea id="additional-notes" name="additional-notes"></textarea>
-                 <button type="submit">Book Appointment</button>
-            </form>
-
-        </section>
-
-        <!-- PROMOTION -->
-        <section id="Promotion">
-
-            <h2>Special Promotion</h2>
-
-            <p>
-                Enjoy 20% off on all services this month! Book your appointment now and experience the best in beauty care.
-            </p>
-
-            <a href="#promotions">Promotions</a>
-
-        </section>
-
-        <!-- CONTACT -->
-
-        <section id="contact">
-
-            <h2>Contact Us</h2>
-
-            <p>
-                Visit CrossCut Salon for your
-                next beauty treatment.
-            </p>
-
-            <p>
-                Phone: 09XX-XXX-XXXX
-            </p>
-
-        </section>
-
-
-        
-    </main>
-
-
-    <!-- FOOTER -->
-
-    <footer>
+        <h2>Welcome to CrossCut Salon</h2>
 
         <p>
-            &copy; 2026 CrossCut Salon.
-            All rights reserved.
+            Professional hair and beauty
+            services designed for you.
         </p>
 
-    </footer>
+        <a href="#services">
+            View Our Services
+        </a>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h2>About CrossCut Salon</h2>
+
+        <p>
+            CrossCut Salon provides quality
+            beauty and hair services for
+            every occasion.
+        </p>
+
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section id="services">
+
+    <h2>Our Services</h2>
+
+    <p>
+        Choose from our selection of professional
+        hair and beauty services.
+    </p>
+
+    <div class="services-grid">
+
+        <article class="service-card">
+
+            <h3>Hair Rebonding</h3>
+
+            <p>
+                Professional hair rebonding
+                for smooth and straight hair.
+            </p>
+
+            <p class="price">₱1,500</p>
+
+            <a href="#booking">Book Now</a>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <h3>Hair Coloring</h3>
+
+            <p>
+                Refresh your look with beautiful
+                and vibrant hair color.
+            </p>
+
+            <p class="price">₱1,200</p>
+
+            <a href="#booking">Book Now</a>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <h3>Balayage</h3>
+
+            <p>
+                Natural-looking highlights designed
+                to complement your style.
+            </p>
+
+            <p class="price">₱2,500</p>
+
+            <a href="#booking">Book Now</a>
+
+        </article>
+
+
+        <article class="service-card">
+
+            <h3>Collagen Hair Treatment</h3>
+
+            <p>
+                Nourishing treatment to help
+                restore soft and healthy-looking hair.
+            </p>
+
+            <p class="price">₱1,000</p>
+
+            <a href="#booking">Book Now</a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+    <!-- BOOKING -->
+
+    <section id="booking">
+
+        <h2>Book an Appointment</h2>
+
+        <form>
+
+            <label for="full_name">Name:</label>
+
+            <input
+                type="text"
+                id="full_name"
+                name="full_name"
+                required
+            >
+
+
+            <label for="email">Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+            >
+
+
+            <label for="mobilephone">Phone:</label>
+
+            <input
+                type="tel"
+                id="mobilephone"
+                name="mobilephone"
+                placeholder="09XX-XXX-XXXX"
+                required
+            >
+
+
+            <label for="service">Service:</label>
+
+            <select
+                id="service"
+                name="service"
+                required
+            >
+
+                <option value="">
+                    Select a service
+                </option>
+
+                <option value="hair-rebonding">
+                    Hair Rebonding
+                </option>
+
+                <option value="hair-coloring">
+                    Hair Coloring
+                </option>
+
+                <option value="balayage">
+                    Balayage
+                </option>
+
+                <option value="collagen-hair-treatment">
+                    Collagen Hair Treatment
+                </option>
+
+            </select>
+
+
+            <label for="appointment_date">
+                Preferred Date:
+            </label>
+
+            <input
+                type="date"
+                id="appointment_date"
+                name="appointment_date"
+                required
+            >
+
+
+            <label for="appointment_time">
+                Time:
+            </label>
+
+            <input
+                type="time"
+                id="appointment_time"
+                name="appointment_time"
+                required
+            >
+
+
+            <label for="staff">
+                Preferred Staff:
+            </label>
+
+            <select
+                id="staff"
+                name="staff"
+                required
+            >
+
+                <option value="">
+                    Select a stylist
+                </option>
+
+                <option value="Eden">
+                    Eden
+                </option>
+
+                <option value="Joy">
+                    Joy
+                </option>
+
+            </select>
+
+
+            <label for="additional-notes">
+                Additional Notes:
+            </label>
+
+            <textarea
+                id="additional-notes"
+                name="additional-notes"
+            ></textarea>
+
+
+            <button type="submit">
+                Book Appointment
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- PROMOTION -->
+
+    <section id="promotion">
+
+        <h2>Special Promotion</h2>
+
+        <p>
+            Enjoy 20% off on all services this month!
+            Book your appointment now and experience
+            the best in beauty care.
+        </p>
+
+        <a href="#promotion">
+            Promotions
+        </a>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>
+            Visit CrossCut Salon for your
+            next beauty treatment.
+        </p>
+
+        <p>
+            Phone: 09XX-XXX-XXXX
+        </p>
+
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        &copy; 2026 CrossCut Salon.
+        All rights reserved.
+    </p>
+
+</footer>
+```
 
 </body>
 
