@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Hair Rebonding",
+        "description": "Professional hair rebonding for smooth and manageable hair.",
+        "price": 1500
+    },
+    {
+        "id": 2,
+        "name": "Hair Coloring",
+        "description": "Professional hair coloring customized to your preferred style.",
+        "price": 1800
+    },
+    {
+        "id": 3,
+        "name": "Balayage",
+        "description": "Natural-looking customized highlights for a beautiful finish.",
+        "price": 2500
+    },
+    {
+        "id": 4,
+        "name": "Collagen Hair Treatment",
+        "description": "A nourishing treatment designed to improve the look and feel of your hair.",
+        "price": 1200
+    },
+    {
+        "id": 5,
+        "name": "Hair Treatment",
+        "description": "Deep nourishing treatment for healthier-looking hair.",
+        "price": 1300
+    }
+]
